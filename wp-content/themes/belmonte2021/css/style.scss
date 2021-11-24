@@ -1,0 +1,537 @@
+// Custom color variables // 
+
+$black: #211D1A;
+$near-black: rgba(#211D1A, .8);
+$dark-gray: rgba(#211D1A, .6);
+$near-white: #FBF0E1;
+$blue: #4A68AA;
+$orange: #DF7357;
+$green: #587762;
+$gold: #D79133;
+
+// Custom variables // 
+
+$icon-size: Clamp(1rem, 2vw, 1.5rem);
+$filter: grayscale(1) sepia(0.2);
+
+
+// SCSS imports //
+
+@import 'tachyons/tachyons.scss';
+@import 'type-scale.scss';
+
+
+// Font-face declarations //
+
+@font-face {
+    font-family: 'Fortescue';
+    src: url('../fonts/Fortescue-Regular.otf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fortescue';
+    src: url('../fonts/Fortescue-Bold.otf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fortescue';
+    src: url('../fonts/Fortescue-Italic.otf');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Beatrice';
+    src: url('../fonts/Beatrice-Bold.otf');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Beatrice Display';
+    src: url('../fonts/Beatrice-Display-Bold.otf');
+    font-weight: 600;
+    font-style: italic;
+}
+
+//  Mobile sticky hover fix // 
+
+@media (hover: none) {
+    .dim:hover {
+        opacity: 1;
+    }
+}
+
+
+// Global styles //
+
+html {
+    overflow: hidden;
+}
+
+* {
+    box-sizing: border-box;
+    position: relative;
+    color: inherit;
+}
+
+button {
+    border: none;
+    background: none;
+    appearance: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    overflow-y: scroll;
+    color: $black;
+    background-color: $near-white;
+    font-family: 'Fortescue';
+}
+
+title, script {
+    display: none;
+}
+
+// Atomic font-family classes //
+
+.fortescue { font-family: 'Fortescue', Times, serif; }
+.beatrice { font-family: 'Beatrice', Arial, sans-serif; }
+.beatrice-display { font-family: 'Beatrice Display', Arial, sans-serif; }
+
+
+// Grain effect classes //
+
+.grain {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    height: 100vh;
+    pointer-events: none;
+    backdrop-filter: blur(.25px);
+  }
+  
+.grain:after {
+    background: url("../images/grain/grain.png");
+    content: "";
+    animation: grain 8s steps(10) infinite;
+    height: 300%;
+    width: 300%;
+    left: -60%;
+    top: -120%;
+    opacity: .8;
+    position: fixed;
+}
+  
+@keyframes grain {
+    0%, 100% { transform:translate(0, 0) }
+    10% { transform:translate(-5%, -10%) }
+    20% { transform:translate(-15%, 5%) }
+    30% { transform:translate(7%, -25%) }
+    40% { transform:translate(-5%, 25%) }
+    50% { transform:translate(-15%, 10%) }
+    60% { transform:translate(15%, 0%) }
+    70% { transform:translate(0%, 15%) }
+    80% { transform:translate(3%, 35%) }
+    90% { transform:translate(-10%, 10%) }
+}
+
+// Marquee classes //
+
+.marquee-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    min-height: 40rem;
+    // @media screen and (min-width: 90rem) {
+    //     height: Max(48rem, 100vh);
+    // }
+}
+
+.marquee {
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.marquee-content {
+    display: none;
+    height: 100%;
+    @media screen and ( min-width: 60rem ) {
+        display: flex;
+    }
+}
+
+.marquee-item {
+    flex-shrink: 0;
+    display: flex;
+    margin-right: 1rem;
+    overflow: hidden;
+    height: 100%;
+    transition: width 0.5s ease-in-out;
+}
+
+.marquee-item img, .marquee-item video {
+    object-fit: cover;
+    object-position: center;
+    filter: $filter;
+    transition: .5s filter linear;
+    cursor: pointer;
+    height: 100%;
+}
+
+
+// .marquee-item img:hover, .marquee-item video:hover {
+//     filter: none;
+// }
+
+.marquee-mobile {
+    display: flex;
+    height: 100%;
+    transition: transform 0.4s ease-in-out;
+    @media screen and ( min-width: 60rem ) {
+        display: none;
+    }
+}
+
+.mobile-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.mobile-item img, .mobile-item video {
+    filter: $filter;
+    height: 100%;
+    max-width: none;
+}
+
+// Layout classes //
+
+.layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    @include respond-to('lg') {
+        grid-template-columns: auto 1fr 5rem;
+        grid-template-rows: 1fr;
+    }
+    @include respond-to('xl') {
+        grid-template-columns: auto 1fr 5rem;
+        grid-template-rows: 1fr;
+    }
+    nav {
+        background: $near-white;
+        @include respond-to('lg'){
+            background: transparent;
+        }
+    }
+    svg {
+        fill: $blue;
+        transition: fill .25s ease-in-out;
+            transition-delay: .5s;
+    }
+}
+
+@keyframes rotating-star {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.animated-logo {
+    .rotating-star {
+        position: absolute;
+        animation: rotating-star 5s linear infinite;
+        right: 76px;
+        top: 0;
+        @include respond-to('xxl'){
+            right: 86px;
+        }
+    }
+}
+
+.loader-logo {
+    .rotating-star {
+        position: absolute;
+        animation: rotating-star 5s linear infinite;
+        right: 76px;
+        top: 0;
+    }
+}
+
+// Misc classes // 
+
+.filter {
+    filter: $filter;
+}
+
+.filter-hover {
+    filter: $filter;
+    transition: filter .5s ease;
+    &:hover {
+        filter: none;
+    }
+}
+
+.icon-size {
+    width: $icon-size;
+    height: $icon-size;
+}
+
+.vh-100--nav {
+    height: calc(100vh - 4rem);
+    @include respond-to('sm') {
+        height: calc(100vh - 88px);
+    }
+    @include respond-to('md') {
+        height: calc(100vh - 95px);
+    }
+    @include respond-to('lg') {
+        height: 100vh;
+    }
+}
+
+.min-height-vh-100--nav {
+    min-height: calc(100vh - 4rem);
+    @include respond-to('sm') {
+        min-height: calc(100vh - 88px);
+    }
+    @include respond-to('md') {
+        min-height: calc(100vh - 95px);
+    }
+    @include respond-to('lg') {
+        min-height: 100vh;
+    }
+}
+
+@include respond-to('xxl') {
+    .bottom-3-xxl {
+        bottom: 4rem;
+    }
+}
+
+.circle-link {
+    width: Clamp(5rem, 23.333vw, 7rem);
+    height: Clamp(5rem, 23.333vw, 7rem);
+    @include respond-to('sm') {
+        width: 7rem;
+        height: 7rem;
+    }
+    @include respond-to('xxl') {
+        width: 8rem;
+        height: 8rem;
+    }
+}
+
+#menu-button {
+    @include respond-to ('lg') {
+        transform-origin: top right;
+        right: 50%;
+        top: var(--spacing-4);
+        transform: rotate(-90deg) translateY(-50%);
+    }
+    #menu-button-label {
+        &:before, &:after {
+            position: absolute;
+            right: 0;
+            transform: translateY(-45%);
+            transition: opacity .25s ease-in-out;
+        }
+        &:before {
+            content: "Cerrar";
+            opacity: 0;
+            pointer-events: none;
+            color: $near-white;
+        }
+        &:after {
+            content: "Menú";
+            opacity: 1;
+            pointer-events: all;
+        }
+    }
+    i {
+        width: $icon-size;
+        height: $icon-size;
+        background: url('../images/icons/menu.svg') center;
+        transition: background .25s ease-in-out;
+    }
+}
+
+#reservations-button {
+    transition: all .25s ease-in-out;
+    &:hover {
+        background: $black;
+        color: $near-white;
+        border-color: $black;
+    }
+}
+
+#address {
+    transform-origin: bottom left;
+    left: 50%;
+    transform: rotate(-90deg) translateY(50%);
+    width: 20rem;
+}
+
+.nav-logo {
+    width: Clamp(6rem, 33.333vw, 10rem);
+}
+
+// Full page menu interaction classes //
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: $orange;
+    transform: translateX(-100%);
+    transition: transform .5s ease-in-out;
+}
+
+nav::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: $orange;
+    background: $orange;
+    transform: translateX(-100%);
+    transition: transform .5s ease-in-out;
+    z-index: 0;
+    @include respond-to('lg'){
+        display: none;
+    }
+}
+
+.content, .menu {
+    grid-area: 2 / 1 / 3 / 2;
+    @include respond-to('lg') {
+        grid-area: 1 / 2 / 2 / 3;
+    }
+}
+
+.menu {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .25s ease-in-out;
+    transition-delay: 0s;
+}
+
+.content {
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+    transition-delay: .5s;
+}
+
+body.menu-open {
+    overflow-y: hidden;
+    .layout {
+        svg {
+            fill: $black;
+            transition-delay: 0s;
+        }
+    }
+    &::before, nav::before {
+        transition: transform .5s ease-in-out;
+        transform: translateX(0);
+        z-index: 1;
+    }
+    .menu {
+        opacity: 1;
+        pointer-events: all;
+        transition-delay: .5s;
+        z-index: 2;
+    }
+    .content {
+        opacity: 0;
+        pointer-events: none;
+        transition-delay: 0s;
+    }
+    #menu-button {   
+        #menu-button-label {
+            &:before {
+                opacity: 1;
+                pointer-events: all;
+            }
+            &:after {
+                opacity: 0;
+                pointer-events: all;
+            }
+        }
+        i {
+            background: url('../images/icons/close-menu.svg') center;
+            transition: background .25s ease-in-out;
+        }
+    }
+    #reservations-button {
+        background: $black;
+        border-color: $black;
+        color: $orange;
+        &:hover {
+            color: $near-white;
+        }
+    }
+}
+
+// Menu accordion classes //
+
+.accordion {
+    width: 100%;
+    @include respond-to('md'){
+        width: calc(50% - .5rem);
+    }
+    @media screen and (min-width: 110rem) {
+        width: calc( calc(100% / 3) - .675rem);
+    } 
+    & > a button {
+        width: 1rem;
+        height: 1rem;
+        background: url('../images/icons/expand.svg') center;
+        cursor: pointer;
+        transition: background .1s ease-in-out;
+    }
+
+    & a.active button {
+        background: url('../images/icons/retract.svg') center;
+    }
+}
+
+.accordion-content {
+    // transition: max-height .5s ease-in-out;
+    & > div:first-of-type {
+        margin-top: $spacing-medium;
+    }
+    & > div:last-of-type {
+        margin-bottom: $spacing-medium;
+    }
+}
+
+.top-nav {
+    top: calc(4rem + 0rem);
+    @include respond-to('sm'){
+        top: 88px;
+    }
+    @include respond-to('md'){
+        top: auto;
+    }
+}
+
+.lolyta-detail-img {
+    padding-bottom: 56.25%
+}

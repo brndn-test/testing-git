@@ -1,0 +1,12 @@
+# Excluye wp-admin/
+/wp-admin/
+# Excluye wp-includes/
+/wp-includes/
+# Excluye wp-content/uploads/, wp-content/languages/ y wp-content/plugins/
+/wp-content/uploads/
+/wp-content/languages/
+/wp-content/plugins/
+# Excluye archivos de configuracion del sitio
+/wp-config.php
+/.htaccess
+/license.txt

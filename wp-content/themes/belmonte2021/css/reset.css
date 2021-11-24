@@ -1,0 +1,540 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;}
+
+html {
+	overflow-x: hidden;
+	height: 100%;}
+
+body {
+	/* height: 100%; */
+	overflow: auto;
+	line-height: 1;
+	margin: 0;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;}
+
+ol, ul {
+	list-style: none;}
+
+blockquote, q {
+	quotes: none;}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;}
+
+* {
+	-webkit-box-sizing: border-box; /* SACRED. (http://css-tricks.com/box-sizing/) */
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;}
+
+*:focus {
+    outline: none;
+}
+
+a,a:hover {
+	color: inherit;
+}
+
+/* WP IMPROVEMENTS */
+input, button, select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;}
+
+button:focus, a:focus {
+	outline:0;}
+
+a.c-white:hover {
+	color: white!important;}
+
+a.c-black:hover {
+	color: #000!important;}
+
+a.c-red:hover {
+	color: #DA212A!important;}
+
+.btn-white-rounded{
+	text-decoration: none;
+	background: white;
+	color: black;
+	font-weight: bold;
+	padding: 20px 60px;
+	border-radius: 60px;}
+
+.btn-white-rounded:hover{
+	text-decoration: none;
+	color: black;
+}
+
+.btn-arrow-right{
+	padding: 11px 40px 11px 23px;
+	position: relative;
+}
+
+.btn-arrow-right:before {
+	top: 10px;}
+
+.btn-arrow-right:before,
+.btn-arrow-right:after {
+	position: absolute;
+	right: 16px;
+	content: " ";
+	height: 9px;
+	width: 1px;
+	background-color: #000;}
+
+.btn-arrow-right:before {
+    transform: rotate(-45deg);
+    top: 14px;
+}
+
+.btn-arrow-right:after {
+    transform: rotate(45deg);
+    top: 20px;
+}
+
+body.customize-support header {
+	margin-top: 32px;
+}
+
+@media(max-width: 752px ) {
+	body.customize-support header {
+		margin-top: 46px;
+	}
+}
+
+@media(max-width: 600px ) {
+	body.customize-support header {
+		margin-top: 0px;
+	}
+}
+
+.content-box-red h1 {
+	font-size: 32px;
+	font-family: "NeuLeon-Mono", serif;
+	line-height: 42px;
+	margin-bottom: 1.5rem;
+	text-transform: uppercase;
+}
+
+.content-box-black h1 {
+	font-size: 32px;
+	font-family: "NeuLeon-Light", serif;
+	line-height: 42px;
+	margin-bottom: 1.5rem;
+	text-transform: uppercase;
+}
+
+@media (max-width: 960px) {
+.content-box-red h1,
+.content-box-black h1 {
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: .5rem; } }
+
+div.wpcf7-mail-sent-ok {
+	border: 2px solid transparent;
+    padding: 0;
+}
+
+/* MAP */
+
+.novo-map_infobox_style_default {
+	height: inherit!important;
+	background-color: inherit!important;
+	overflow: hidden;
+}
+
+.novo-map_infobox_style_default .infobox-content {
+	background-color: #DA212A;
+	display: inline-block;
+}
+
+.novo-map_infobox_style_default .description {
+	padding-left: 0!important;
+	font-family: "NeuLeon-Regular", sans-serif;
+}
+
+.novo-map_infobox_style_default .description-wrap {
+	margin-left: 10px;
+	margin-right: 10px;
+	border-top: 1px solid #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	float: left;
+	width: 90%;
+}
+
+.novo-map_infobox_style_default .description p strong {
+    display: inline-block;
+    background: white;
+    color: red;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 8px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.novo-map_infobox_style_default .description p {
+	/* height: 20px;
+	width: 20px; */
+	overflow: hidden;
+	display: inline-block;
+	position: relative;
+	top: 4px;
+	width: 100%;
+}
+
+.novo-map_infobox_style_default .title {
+	text-align: left!important;
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+	margin-left: 10px;
+	margin-right: 10px;
+	float: left;
+	font-family: "NeuLeon-Mono", serif;
+	text-transform: uppercase;
+	font-weight: inherit!important;
+	width: 90%!important;
+}
+
+.novo-map_infobox_style_default .title p strong {
+	display: none;
+}
+
+
+body.customize-support {
+    padding-top: 68px;
+}
+
+.has-logo{
+	max-width: 150px;}
+
+/* INFOBOX COLOR */
+
+/* BLUE */
+.infobox-content.map-17,
+.infobox-content.map-29,
+.infobox-content.map-20 {
+	background-color: #363B82;}
+.novo-map_infobox_style_default .infobox-content.map-17 .description p strong,
+.novo-map_infobox_style_default .infobox-content.map-29 .description p strong,
+.novo-map_infobox_style_default .infobox-content.map-20 .description p strong {
+	color: #363B82;}
+.infobox-content.map-26,
+.infobox-content.map-20 {
+	background-color: #363B82;}
+.novo-map_infobox_style_default .infobox-content.map-26 .description p strong,
+.novo-map_infobox_style_default .infobox-content.map-29 .description p strong,
+.novo-map_infobox_style_default .infobox-content.map-20 .description p strong {
+	color: #363B82;}
+
+/* WHITE */
+.novo-map_infobox_style_default .infobox-content.map-13 .title,
+.novo-map_infobox_style_default .infobox-content.map-25 .title,
+.novo-map_infobox_style_default .infobox-content.map-31 .title,
+.novo-map_infobox_style_default .infobox-content.map-16 .title,
+.novo-map_infobox_style_default .infobox-content.map-19 .title,
+.novo-map_infobox_style_default .infobox-content.map-28 .title {
+	color: #363B82!important;}
+.novo-map_infobox_style_default .infobox-content.map-13 .description-wrap,
+.novo-map_infobox_style_default .infobox-content.map-25 .description-wrap,
+.novo-map_infobox_style_default .infobox-content.map-31 .description-wrap,
+.novo-map_infobox_style_default .infobox-content.map-16 .description-wrap,
+.novo-map_infobox_style_default .infobox-content.map-19 .description-wrap,
+.novo-map_infobox_style_default .infobox-content.map-28 .description-wrap {
+    border-top: 1px solid #363B82; }
+.infobox-content.map-13,
+.infobox-content.map-25,
+.infobox-content.map-31,
+.infobox-content.map-16,
+.infobox-content.map-19,
+.infobox-content.map-28  {
+	background-color: #FFF;
+	color: #363B82; }
+.novo-map_infobox_style_default .infobox-content.map-13 .description p strong,
+.novo-map_infobox_style_default .infobox-content.map-25 .description p strong,
+.novo-map_infobox_style_default .infobox-content.map-31 .description p strong,
+.novo-map_infobox_style_default .infobox-content.map-16 .description p strong,
+.novo-map_infobox_style_default .infobox-content.map-19 .description p strong,
+.novo-map_infobox_style_default .infobox-content.map-28 .description p strong {
+	color: #FFF;
+	background-color: #363B82;}
+.novo-map_infobox_style_default .infobox-content.map-13 .description,
+.novo-map_infobox_style_default .infobox-content.map-25 .description,
+.novo-map_infobox_style_default .infobox-content.map-31 .description,
+.novo-map_infobox_style_default .infobox-content.map-16 .description,
+.novo-map_infobox_style_default .infobox-content.map-19 .description,
+.novo-map_infobox_style_default .infobox-content.map-28 .description {
+	color: #363B82!important;}
+
+
+#aside-menu a {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.has-tab-content:nth-child(n+2) .tab-content.is-home {
+	visibility: hidden; opacity: 0; height: 0px; overflow: hidden;
+}
+
+.has-tab-content:nth-child(1) .tab-content.is-home {
+	visibility: visible; opacity: 1; height: auto; overflow: hidden;
+}
+
+.has-content-white-links a{
+	color: white!important;
+	text-decoration: underline;}
+
+.has-content-white-links a.c-blue{
+	color: #363B7F!important;
+	text-decoration: none;}
+
+
+.slider-nav .slick-current {
+	background: #FFFFFF!important;
+    color: #242525!important;
+}
+
+.has-content-white-links a,
+.slider-nav .slick-current p {
+	color: #242525!important;
+}
+
+.wpcf7-list-item-label {
+	position: inherit!important;
+	height: inherit!important;
+	width: inherit!important;
+	border: none!important;
+	color: inherit!important;
+	border-radius: 0!important;
+	overflow: hidden!important;
+	font-size:12px;
+}
+
+.input-submit-white{
+    background: white;
+    color: black;
+    padding: 10px 45px;
+	border:none;
+	width: 100%;
+}
+
+input[type="checkbox"]{
+	font-size: 20px !important;
+	position: relative;
+	width: 20px;
+	padding: 0;
+	margin: 0;
+	-webkit-appearance: checkbox!important;
+-moz-appearance: checkbox!important;
+appearance: checkbox!important;
+}
+
+.wpcf7-list-item {
+	 display: inherit!important;
+    margin: inherit!important;
+}
+
+.wpcf7-form-control.wpcf7-quiz {
+border-bottom: 1px solid white;
+background: transparent;
+border-top: none;
+border-left: none;
+border-right: none;
+color: white;
+max-width:50px;}
+
+/* LOADER */
+#loading_wrap{
+	z-index: 1002;
+	display: flex;
+}
+.loader {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    border: solid transparent 5px;
+    border-top: solid #FFFFFF 5px;
+    border-left: solid #FFFFFF 5px;
+    -webkit-animation: loaderAnimation 1s linear infinite;
+    animation: loaderAnimation 1s linear infinite;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+}
+
+.left-0 {
+    left: 0;
+}
+.top-0 {
+    top: 0;
+}
+
+
+@-webkit-keyframes loaderAnimation {
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg)
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg)
+	}
+}
+
+@keyframes loaderAnimation {
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg)
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg)
+	}
+}
+
+.txt14-md {
+  font-size: 14px;
+}
+@media (max-width: 1280px) {
+  .txt14-md {
+    font-size: 10px;
+  }
+}
+
+.closebtn {
+	text-align: center;
+	max-width: 25px;
+    width: 100%;
+    height: 25px;
+    position: absolute;
+    right: -24px;
+    top: -3px;
+    min-height: 25px;
+	min-width: 25px;
+}
+
+.closebtn span {
+	position: absolute;
+    left: 0;
+    right: 0;
+    top: 4px;
+}
+
+.h-video-wrap {
+    height: calc(100vh - 66px);}
+
+@media (max-width: 960px){
+	.h-video-wrap {
+	    height: auto;}
+}
+
+/* CATEGORIA CURATORIAL */
+.video-mask-hover .video-mask .video,
+.video-mask-hover .video-mask .gif{
+    display: none;
+}
+
+.video-mask-hover:hover .video-mask .video{
+    display: block;
+}
+@media (max-width: 768px) {
+  .video-mask-hover:hover .video-mask .video{
+    	display: none;}
+	.video-mask-hover:hover .video-mask .gif{
+    	display: block;}
+}
+
+.video-mask-hover .video-mask .inner-container{
+    position:relative;
+}
+
+body.profesional .video-mask .png {
+	opacity: 70%;
+}
+
+.cir-170{
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+}
+
+.cir-170 img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.position-relative-md{
+	position: relative;
+}
+
+
+@media (max-width: 960px){
+	.video-mask-hover .video-mask .gif {
+	    display: block;
+	}
+	.position-relative-md,
+	.video-mask-hover .video-mask .inner-container{
+		position: absolute;
+	}
+	.hero-nav-close {
+		z-index: 4;
+		top: 100px;
+	}
+}
+
+.border-left-343434 {
+	border-left: 1px solid #343434;
+}
+
+/* ARROW BACK */
+.arrow-back{left:-110px;}
+.arrow-back img{max-width:30px;}
+@media(max-width: 1280px){.arrow-back{left:-70px;}}
+@media(max-width: 992px){.arrow-back img{max-width: 20px;top:-4px;}.arrow-back{left:-49px;}}
+
+
+#ModalConcurso .tab-menu li { position: relative;top: -16px;}
+#ModalConcurso .tab-menu li a{    padding: 27px 20px;background: black;color: #4D4D4D;text-align: center;display: block;}
+#ModalConcurso .tab-menu li.current a{ background: white;color: black;}
+#ModalConcurso .tab-menu li::marker {display: none;}

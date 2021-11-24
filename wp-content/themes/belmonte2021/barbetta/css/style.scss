@@ -1,0 +1,169 @@
+// Custom color variables // 
+
+$black: #000000;
+$near-black: rgba(#000000, .8);
+$dark-gray: rgba(#000000, .6);
+$near-white: #F4EBD7;
+$blue: #40C0C6;
+$navy: #084E5E;
+$orange: #F14C1C;
+$green: #84845B;
+
+// SCSS imports //
+
+@import 'tachyons/tachyons.scss';
+@import 'type-scale.scss';
+
+
+// Font-face declarations //
+
+@font-face {
+    font-family: 'Wermut';
+    src: url('../fonts/wermut.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('../fonts/graphik-regular.otf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('../fonts/graphik-semibold.otf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+//  Mobile sticky hover fix // 
+
+@media (hover: none) {
+    .dim:hover {
+        opacity: 1;
+    }
+}
+
+
+// Global styles //
+
+html {
+    overflow: hidden;
+}
+
+* {
+    box-sizing: border-box;
+    position: relative;
+    color: inherit;
+    font-weight: 400;
+}
+
+button {
+    border: none;
+    background: none;
+    appearance: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    overflow-y: scroll;
+    color: $black;
+    background-color: $near-white;
+    font-family: 'Wermut';
+}
+
+title, script {
+    display: none;
+}
+
+// Grain effect classes //
+
+.grain {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    height: 100vh;
+    pointer-events: none;
+    backdrop-filter: blur(.25px);
+  }
+  
+.grain:after {
+    background: url("../images/grain/grain.png");
+    content: "";
+    animation: grain 8s steps(10) infinite;
+    height: 300%;
+    width: 300%;
+    left: -60%;
+    top: -120%;
+    opacity: .6;
+    position: fixed;
+}
+  
+@keyframes grain {
+    0%, 100% { transform:translate(0, 0) }
+    10% { transform:translate(-5%, -10%) }
+    20% { transform:translate(-15%, 5%) }
+    30% { transform:translate(7%, -25%) }
+    40% { transform:translate(-5%, 25%) }
+    50% { transform:translate(-15%, 10%) }
+    60% { transform:translate(15%, 0%) }
+    70% { transform:translate(0%, 15%) }
+    80% { transform:translate(3%, 35%) }
+    90% { transform:translate(-10%, 10%) }
+}
+
+// Misc Classes //
+
+.wermut {
+    font-family: 'Wermut', serif;
+}
+
+.graphik {
+    font-family: 'Graphik', sans-serif;
+}
+
+.logo {
+    width: 10rem;
+}
+
+.nav-logo {
+    width: 35vw;
+    min-width: 4rem;
+    @include respond-to('sm') {
+        width: auto;
+    }
+}
+
+.column {
+    width: calc(calc(100% / 3) - 2rem )
+}
+
+.image {
+    width: calc(100% + 2rem);
+}
+
+.header-image {
+    opacity: .8;
+    // filter: saturate(0);
+    @include respond-to('lg') {
+        opacity: 1;
+        // filter: saturate(1);
+    }
+}
+
+nav {
+    transition: top .25s ease-in-out;
+    box-shadow: 4px 4px 40px 0px $black-20;
+}
+
+.nav-hidden {
+    top: -118px;
+}

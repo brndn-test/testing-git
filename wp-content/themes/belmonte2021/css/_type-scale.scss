@@ -1,0 +1,76 @@
+.f-12 {
+  font-size: Clamp(.625rem, 2.500vw, .75rem);
+  @include respond-to('sm') {
+    font-size: .75rem;
+  }
+}
+
+.f-14 {
+  font-size: Clamp(.625rem, 2.500vw, .75rem);
+  @include respond-to('sm') {
+    font-size: .75rem;
+  }
+  @include respond-to('xxl') {
+    font-size: .875rem;
+  }
+}
+
+.f-16 {
+  font-size: Clamp(.75rem, 2.917vw, .875rem);
+  @include respond-to('sm') {
+    font-size: .875rem;
+  }
+  @include respond-to('xxl') {
+    font-size: 1rem;
+  }
+}
+
+.f-24 {
+  font-size: Clamp(1rem, 4.167vw, 1.25rem);
+  @include respond-to('sm') {
+    font-size: 1.25rem;
+  }
+  @include respond-to('xxl') {
+    font-size: 1.5rem;
+  }
+}
+
+.f-36 {
+  font-size: Clamp(1.5rem, 6.667vw, 2rem);
+  @include respond-to('sm') {
+    font-size: 2rem;
+  }
+  @include respond-to('xxl') {
+    font-size: 2.25rem;
+  }
+}
+
+.f-48 {
+  font-size: Clamp(2rem, 9.167vw, 2.75rem);
+  @include respond-to('sm') {
+    font-size: 2.75rem;
+  }
+  @include respond-to('xxl') {
+    font-size: 3rem;
+  }
+}
+
+.f-80 {
+  font-size: Clamp(1.5rem, 13.333vw, 4rem);
+  @include respond-to('sm') {
+    font-size: 4rem;
+  }
+  @include respond-to('xxl') {
+    font-size: 5rem;
+  }
+}
+
+.f-96 {
+  font-size: Clamp(1.5rem, 16.667vw, 6rem);
+  @include respond-to('sm') {
+    font-size: 5rem;
+  }
+  @include respond-to('xxl') {
+    font-size: 6rem;
+  }
+}

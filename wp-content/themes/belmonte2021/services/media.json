@@ -1,0 +1,996 @@
+{
+  "images": [
+    {
+      "url": "images/marquee/calles-monterrey-1.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/calles-monterrey-2.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/central-autobuses.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/centro-1.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/centro-2.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/centro-3.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/centro-4.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/centro-5.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/centro-6.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/centro-7.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/centro-8.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/centro-9.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/centro-10.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/centro-11.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/centro-12.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/cerro.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/edificio-latino-2.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/edificio-latino-3.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/edificio-latino-4.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/edificio-latino-2.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/edificio-latino-3.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/edificio-latino-4.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/edificio-latino-5.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/edificio-latino-6.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/edificio-latino-7.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/edificio-latino-8.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/edificio-latino-9.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/edificio-latino-10.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/edificio-latino-11.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/edificio-latino-12.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/edificio-latino-13.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/escobedo.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/fabrica-cantu.jpg",
+      "type": "image",
+      "tags": ["Marcas"]
+    },
+    {
+      "url": "images/marquee/fuente-monterrey-1.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/fuente-monterrey-2.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/fuente-monterrey-3.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/fuente-monterrey-4.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/hidalgo.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/juarez-1.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/juarez-2.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/juarez-3.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/juarez-4.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/juarez-5.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/juarez-6.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/juarez-7.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/juarez-8.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/juarez-9.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/juarez-10.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/juarez-11.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/juarez-12.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/juarez-13.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/juarez-14.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/juarez-15.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/juarez-16.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/juarez-17.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/juarez-18.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/juarez-19.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/juarez-20.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/juarez-21.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/juarez-22.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/juarez-23.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/macro.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/mercado-juarez.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/mexico-exporta.jpg",
+      "type": "image",
+      "tags": ["Cultura"]
+    },
+    {
+      "url": "images/marquee/morelos-1.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/morelos-2.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/morelos-3.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/morelos-y-juarez.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/morelos.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/obispado.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/oxxo-1.jpg",
+      "type": "image",
+      "tags": ["Marcas"]
+    },
+    {
+      "url": "images/marquee/oxxo-2.jpg",
+      "type": "image",
+      "tags": ["Marcas"]
+    },
+    {
+      "url": "images/marquee/palacio-1.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/palacio-2.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/pele-arq-benavides.jpg",
+      "type": "image",
+      "tags": ["Deportes"]
+    },
+    {
+      "url": "images/marquee/pele-monterrey.jpg",
+      "type": "image",
+      "tags": ["Deportes"]
+    },
+    {
+      "url": "images/marquee/pele-tigres.jpg",
+      "type": "image",
+      "tags": ["Deportes"]
+    },
+    {
+      "url": "images/marquee/pele-volcan.jpg",
+      "type": "image",
+      "tags": ["Deportes"]
+    },
+    {
+      "url": "images/marquee/pino-suarez-1.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/pino-suarez-2.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/planetario-alfa.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/plaza-hidalgo.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/plaza-zaragoza-1.jpg",
+      "type": "image",
+      "tags": ["Gente"]
+    },
+    {
+      "url": "images/marquee/plaza-zaragoza-2.jpg",
+      "type": "image",
+      "tags": ["Gente"]
+    },
+    {
+      "url": "images/marquee/plaza-zaragoza-3.jpg",
+      "type": "image",
+      "tags": ["Gente"]
+    },
+    {
+      "url": "images/marquee/plaza-zaragoza-4.jpg",
+      "type": "image",
+      "tags": ["Gente"]
+    },
+    {
+      "url": "images/marquee/plaza-zaragoza-5.jpg",
+      "type": "image",
+      "tags": ["Gente"]
+    },
+    {
+      "url": "images/marquee/plaza-zaragoza-6.jpg",
+      "type": "image",
+      "tags": ["Gente"]
+    },
+    {
+      "url": "images/marquee/plaza-zaragoza-7.jpg",
+      "type": "image",
+      "tags": ["Gente"]
+    },
+    {
+      "url": "images/marquee/plaza-zaragoza-8.jpg",
+      "type": "image",
+      "tags": ["Gente"]
+    },
+    {
+      "url": "images/marquee/rayados-1.jpg",
+      "type": "image",
+      "tags": ["Deportes"]
+    },
+    {
+      "url": "images/marquee/rayados-2.jpg",
+      "type": "image",
+      "tags": ["Deportes"]
+    },
+    {
+      "url": "images/marquee/rayados-3.jpg",
+      "type": "image",
+      "tags": ["Deportes"]
+    },
+    {
+      "url": "images/marquee/rayados-4.jpg",
+      "type": "image",
+      "tags": ["Deportes"]
+    },
+    {
+      "url": "images/marquee/rayados-5.jpg",
+      "type": "image",
+      "tags": ["Deportes"]
+    },
+    {
+      "url": "images/marquee/rayados-6.jpg",
+      "type": "image",
+      "tags": ["Deportes"]
+    },
+    {
+      "url": "images/marquee/rayados-7.jpg",
+      "type": "image",
+      "tags": ["Deportes"]
+    },
+    {
+      "url": "images/marquee/rayados-8.jpg",
+      "type": "image",
+      "tags": ["Deportes"]
+    },
+    {
+      "url": "images/marquee/rayados-9.jpg",
+      "type": "image",
+      "tags": ["Deportes"]
+    },
+    {
+      "url": "images/marquee/rayados-10.jpg",
+      "type": "image",
+      "tags": ["Deportes"]
+    },
+    {
+      "url": "images/marquee/rayados-azteca-1.jpg",
+      "type": "image",
+      "tags": ["Deportes"]
+    },
+    {
+      "url": "images/marquee/rayados-azteca-2.jpg",
+      "type": "image",
+      "tags": ["Deportes"]
+    },
+    {
+      "url": "images/marquee/rayados-azteca-3.jpg",
+      "type": "image",
+      "tags": ["Deportes"]
+    },
+    {
+      "url": "images/marquee/rio-70.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/salinas-y-rocha-1.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/salinas-y-rocha-2.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/salinas-y-rocha-3.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/sanborns.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "images/marquee/selena-1.jpg",
+      "type": "image",
+      "tags": ["Gente"]
+    },
+    {
+      "url": "images/marquee/selena-2.jpg",
+      "type": "image",
+      "tags": ["Gente"]
+    },
+    {
+      "url": "images/marquee/selena-3.jpg",
+      "type": "image",
+      "tags": ["Gente"]
+    },
+    {
+      "url": "images/marquee/selena-4.jpg",
+      "type": "image",
+      "tags": ["Gente"]
+    },
+    {
+      "url": "images/marquee/selena-5.jpg",
+      "type": "image",
+      "tags": ["Gente"]
+    },
+    {
+      "url": "images/marquee/tigres-1.jpg",
+      "type": "image",
+      "tags": ["Deportes"]
+    },
+    {
+      "url": "images/marquee/tigres-2.jpg",
+      "type": "image",
+      "tags": ["Deportes"]
+    },
+    {
+      "url": "images/marquee/tigres-3.jpg",
+      "type": "image",
+      "tags": ["Deportes"]
+    },
+    {
+      "url": "images/marquee/tigres-4.jpg",
+      "type": "image",
+      "tags": ["Deportes"]
+    },
+    {
+      "url": "images/marquee/tigres-5.jpg",
+      "type": "image",
+      "tags": ["Deportes"]
+    },
+    {
+      "url": "images/marquee/tigres-6.jpg",
+      "type": "image",
+      "tags": ["Deportes"]
+    },
+    {
+      "url": "images/marquee/tigres-7.jpg",
+      "type": "image",
+      "tags": ["Deportes"]
+    },
+    {
+      "url": "images/marquee/tigres-8.jpg",
+      "type": "image",
+      "tags": ["Deportes"]
+    },
+    {
+      "url": "images/marquee/zaragoza.jpg",
+      "type": "image",
+      "tags": ["Ciudad"]
+    }
+  ],
+  "videos": [
+    {
+      "url": "videos/marquee/1999_futbol_1.mp4",
+      "type": "video",
+      "tags": ["Gente", "Deportes"]
+    },
+    {
+      "url": "videos/marquee/1999_futbol_2.mp4",
+      "type": "video",
+      "tags": ["Gente", "Deportes"]
+    },
+    {
+      "url": "videos/marquee/1999_futbol_3.mp4",
+      "type": "video",
+      "tags": ["Gente", "Deportes"]
+    },
+    {
+      "url": "videos/marquee/1999_futbol_4.mp4",
+      "type": "video",
+      "tags": ["Gente", "Deportes"]
+    },
+    {
+      "url": "videos/marquee/1999_futbol_5.mp4",
+      "type": "video",
+      "tags": ["Gente", "Deportes"]
+    },
+    {
+      "url": "videos/marquee/1999_gob.mp4",
+      "type": "video",
+      "tags": ["Ciudad", "Gente"]
+    },
+    {
+      "url": "videos/marquee/ajua400_1.mp4",
+      "type": "video",
+      "tags": ["Gente"]
+    },
+    {
+      "url": "videos/marquee/ajua400_2.mp4",
+      "type": "video",
+      "tags": ["Gente"]
+    },
+    {
+      "url": "videos/marquee/bicis.mp4",
+      "type": "video",
+      "tags": ["Gente", "Ciudad"]
+    },
+    {
+      "url": "videos/marquee/bimbo_macro.mp4",
+      "type": "video",
+      "tags": ["Marcas"]
+    },
+    {
+      "url": "videos/marquee/cablevision_futbol.mp4",
+      "type": "video",
+      "tags": ["Gente", "Deportes"]
+    },
+    {
+      "url": "videos/marquee/cambios_arq.mp4",
+      "type": "video",
+      "tags": ["Gente"]
+    },
+    {
+      "url": "videos/marquee/canal12_ciudad.mp4",
+      "type": "video",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "videos/marquee/carne_1.mp4",
+      "type": "video",
+      "tags": ["Sabores"]
+    },
+    {
+      "url": "videos/marquee/carne_2.mp4",
+      "type": "video",
+      "tags": ["Sabores"]
+    },
+    {
+      "url": "videos/marquee/carne_3.mp4",
+      "type": "video",
+      "tags": ["Sabores"]
+    },
+    {
+      "url": "videos/marquee/carta_blanca_1.mp4",
+      "type": "video",
+      "tags": ["Sabores", "Ciudad", "Gente"]
+    },
+    {
+      "url": "videos/marquee/carta_blanca_2.mp4",
+      "type": "video",
+      "tags": ["Sabores", "Gente"]
+    },
+    {
+      "url": "videos/marquee/carta_blanca_3.mp4",
+      "type": "video",
+      "tags": ["Sabores", "Gente"]
+    },
+    {
+      "url": "videos/marquee/cemento_monterrey_1.mp4",
+      "type": "video",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "videos/marquee/cemento_monterrey_2.mp4",
+      "type": "video",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "videos/marquee/circo_contry.mp4",
+      "type": "video",
+      "tags": ["Gente"]
+    },
+    {
+      "url": "videos/marquee/comunidad_valle_oriente_1.mp4",
+      "type": "video",
+      "tags": ["Ciudad", "Gente"]
+    },
+    {
+      "url": "videos/marquee/comunidad_valle_oriente_2.mp4",
+      "type": "video",
+      "tags": ["Ciudad", "Gente"]
+    },
+    {
+      "url": "videos/marquee/comunidad_valle_oriente_3.mp4",
+      "type": "video",
+      "tags": ["Ciudad", "Gente"]
+    },
+    {
+      "url": "videos/marquee/deportes_coca_cola.mp4",
+      "type": "video",
+      "tags": ["Deportes", "Sabores"]
+    },
+    {
+      "url": "videos/marquee/desvelados_dream.mp4",
+      "type": "video",
+      "tags": ["Gente"]
+    },
+    {
+      "url": "videos/marquee/desvelados_gustavolara.mp4",
+      "type": "video",
+      "tags": ["Gente"]
+    },
+    {
+      "url": "videos/marquee/desvelados_mercurio.mp4",
+      "type": "video",
+      "tags": ["Gente"]
+    },
+    {
+      "url": "videos/marquee/desvelados_timbiriche.mp4",
+      "type": "video",
+      "tags": ["Gente"]
+    },
+    {
+      "url": "videos/marquee/diario_de_monterrey.mp4",
+      "type": "video",
+      "tags": ["Ciudad", "Gente"]
+    },
+    {
+      "url": "videos/marquee/elsa_linares.mp4",
+      "type": "video",
+      "tags": ["Gente"]
+    },
+    {
+      "url": "videos/marquee/entrevistas_1.mp4",
+      "type": "video",
+      "tags": ["Gente"]
+    },
+    {
+      "url": "videos/marquee/entrevistas_2.mp4",
+      "type": "video",
+      "tags": ["Gente"]
+    },
+    {
+      "url": "videos/marquee/entrevistas_3.mp4",
+      "type": "video",
+      "tags": ["Gente"]
+    },
+    {
+      "url": "videos/marquee/entrevistas_4.mp4",
+      "type": "video",
+      "tags": ["Gente"]
+    },
+    {
+      "url": "videos/marquee/entrevistas_5.mp4",
+      "type": "video",
+      "tags": ["Gente"]
+    },
+    {
+      "url": "videos/marquee/entrevistas_6.mp4",
+      "type": "video",
+      "tags": ["Gente"]
+    },
+    {
+      "url": "videos/marquee/entrevistas_7.mp4",
+      "type": "video",
+      "tags": ["Gente"]
+    },
+    {
+      "url": "videos/marquee/entrevistas_8.mp4",
+      "type": "video",
+      "tags": ["Gente"]
+    },
+    {
+      "url": "videos/marquee/famsa_felixugomez.mp4",
+      "type": "video",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "videos/marquee/glorias.mp4",
+      "type": "video",
+      "tags": ["Sabores"]
+    },
+    {
+      "url": "videos/marquee/hacienda_del_norte_1.mp4",
+      "type": "video",
+      "tags": ["Gente"]
+    },
+    {
+      "url": "videos/marquee/hacienda_del_norte_2.mp4",
+      "type": "video",
+      "tags": ["Gente"]
+    },
+    {
+      "url": "videos/marquee/jcepeda_bicis_1.mp4",
+      "type": "video",
+      "tags": ["Ciudad", "Gente"]
+    },
+    {
+      "url": "videos/marquee/jcepeda_bicis_2.mp4",
+      "type": "video",
+      "tags": ["Ciudad", "Gente"]
+    },
+    {
+      "url": "videos/marquee/monterrey-1986-1.mp4",
+      "type": "video",
+      "tags": ["Ciudad", "Gente"]
+    },
+    {
+      "url": "videos/marquee/monterrey-1986-2.mp4",
+      "type": "video",
+      "tags": ["Ciudad", "Gente"]
+    },
+    {
+      "url": "videos/marquee/monterrey-1986-3.mp4",
+      "type": "video",
+      "tags": ["Ciudad", "Gente"]
+    },
+    {
+      "url": "videos/marquee/monterrey-1986-4.mp4",
+      "type": "video",
+      "tags": ["Ciudad", "Gente"]
+    },
+    {
+      "url": "videos/marquee/monterrey-1986-5.mp4",
+      "type": "video",
+      "tags": ["Ciudad", "Gente"]
+    },
+    {
+      "url": "videos/marquee/monterrey-1986-6.mp4",
+      "type": "video",
+      "tags": ["Ciudad", "Gente"]
+    },
+    {
+      "url": "videos/marquee/monterrey-1986-7.mp4",
+      "type": "video",
+      "tags": ["Ciudad", "Gente"]
+    },
+    {
+      "url": "videos/marquee/monterrey400_1.mp4",
+      "type": "video",
+      "tags": ["Sabores", "Ciudad", "Gente", "Deportes"]
+    },
+    {
+      "url": "videos/marquee/monterrey400_2.mp4",
+      "type": "video",
+      "tags": ["Sabores", "Ciudad", "Gente", "Deportes"]
+    },
+    {
+      "url": "videos/marquee/monterrey400_3.mp4",
+      "type": "video",
+      "tags": ["Sabores", "Ciudad", "Gente", "Deportes"]
+    },
+    {
+      "url": "videos/marquee/multimedios_ciudad_1.mp4",
+      "type": "video",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "videos/marquee/multimedios_ciudad_2.mp4",
+      "type": "video",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "videos/marquee/multimedios_deportes.mp4",
+      "type": "video",
+      "tags": ["Deportes", "Gente"]
+    },
+    {
+      "url": "videos/marquee/muppets_macro.mp4",
+      "type": "video",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "videos/marquee/pasele_pariente.mp4",
+      "type": "video",
+      "tags": ["Gente"]
+    },
+    {
+      "url": "videos/marquee/pemex_saltillo_1.mp4",
+      "type": "video",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "videos/marquee/pemex_saltillo_2.mp4",
+      "type": "video",
+      "tags": ["Ciudad"]
+    },
+    {
+      "url": "videos/marquee/pirateria.mp4",
+      "type": "video",
+      "tags": ["Gente"]
+    },
+    {
+      "url": "videos/marquee/pollo_loco.mp4",
+      "type": "video",
+      "tags": ["Sabores"]
+    },
+    {
+      "url": "videos/marquee/pollo.mp4",
+      "type": "video",
+      "tags": ["Sabores"]
+    },
+    {
+      "url": "videos/marquee/programa_paisano_1.mp4",
+      "type": "video",
+      "tags": ["Naturaleza", "Gente"]
+    },
+    {
+      "url": "videos/marquee/programa_paisano_2.mp4",
+      "type": "video",
+      "tags": ["Naturaleza", "Gente"]
+    },
+    {
+      "url": "videos/marquee/restaurant.mp4",
+      "type": "video",
+      "tags": ["Sabores", "Gente"]
+    },
+    {
+      "url": "videos/marquee/sabordelfutbol.mp4",
+      "type": "video",
+      "tags": ["Gente", "Deporte"]
+    },
+    {
+      "url": "videos/marquee/sarh_incendios_forestales.mp4",
+      "type": "video",
+      "tags": ["Naturaleza"]
+    },
+    {
+      "url": "videos/marquee/teatro_nena_delgado.mp4",
+      "type": "video",
+      "tags": ["Gente"]
+    },
+    {
+      "url": "videos/marquee/tortillas_mission.mp4",
+      "type": "video",
+      "tags": ["Sabores"]
+    },
+    {
+      "url": "videos/marquee/valores_monterrey_1.mp4",
+      "type": "video",
+      "tags": ["Ciudad", "Gente"]
+    },
+    {
+      "url": "videos/marquee/valores_monterrey_2.mp4",
+      "type": "video",
+      "tags": ["Ciudad", "Gente"]
+    },
+    {
+      "url": "videos/marquee/votaciones.mp4",
+      "type": "video",
+      "tags": ["Gente"]
+    }
+  ]
+}

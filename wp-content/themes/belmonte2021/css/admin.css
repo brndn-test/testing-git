@@ -1,0 +1,50 @@
+/* CSS FOR USERS */
+#wp-admin-bar-site-name,
+#wp-admin-bar-new-content,
+#wp-admin-bar-comments {
+    display: none !important;
+    pointer-events: none;
+}
+
+#wp-link-wrap {
+    height: 240px !important;
+}
+
+#wp-link-wrap #search-panel {
+    display: none;
+}
+
+#wp-link-wrap p#wplink-link-existing-content {
+    display: none;
+}
+
+/*metaboxes de visibilidad*/
+#misc-publishing-actions .misc-pub-section.misc-pub-visibility {
+    display: none;
+}
+
+/* HIDE OTHERS POSTS  */
+tbody#the-list tr.author-other {
+    display: none;
+}
+
+/* MENU IN POSTS*/
+ul.subsubsub li.all,
+ul.subsubsub li.publish,
+ul.subsubsub li.draft {
+    display: none;
+}
+
+ul.subsubsub span.count {
+    display: none;
+}
+
+/* HIDE CATEGORIES FROM SIDE MENU*/
+li#menu-posts-profesional ul.wp-submenu li:nth-child(4),
+li#menu-posts-profesional ul.wp-submenu li:nth-child(5) {
+    display: none;
+}
+
+.tablenav.top .displaying-num {
+    display: none;
+}
